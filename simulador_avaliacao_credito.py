@@ -26,7 +26,9 @@ def avaliar_mau(dict_respostas):
 # Imagem com o logo do formulário
 st.image('img/rodrigobank.png')
 # Titulo do formulário
-st.write('# Simulador de Avaliação de Crédito')
+#st.write('# Simulador de Avaliação de Crédito')
+
+st.markdown("<h1 style='text-align: center; color: white;'>Simulador de Avaliação de Crédito</h1>", unsafe_allow_html=True)
 
 # Criando o objeto expander
 my_expander_1 = st.beta_expander('Trabalho')
